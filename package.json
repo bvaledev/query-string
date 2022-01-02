@@ -1,0 +1,21 @@
+{
+  "name": "smart-query-string",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "coveralls": "jest --coverage && coveralls < coverage/lcov.info"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "@types/jest": "^27.4.0",
+    "babel-jest": "^27.4.5",
+    "coveralls": "^3.1.1",
+    "jest": "^27.4.5"
+  }
+}
